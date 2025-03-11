@@ -13,7 +13,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Field'] = ('Circle'),
         ['Mode'] = ('Automatic'), --[[ Automatic, Target ]]
                                                                                                          --[[ Must have Automated enabled to use these (prediction formula for offbrands) ]]
-        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = 0, ['Air'] = 0, ['Automated'] = (false), ['Stabilize'] = 4.9, ['YStabilize'] = { ['Enabled'] = false, ['Value'] = 2 } },
+        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = 0.0510, ['Air'] = 0.0510, ['Automated'] = (false), ['Stabilize'] = 4.9, ['YStabilize'] = { ['Enabled'] = false, ['Value'] = 2 } },
                                                           --[[ Basic, Advanced ]]
         ['Point'] = ('Nearest Part'), ['Scale'] = (0.96), ['Type'] = ('Advanced'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
         ['Parts'] = {'Head'} --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
@@ -27,7 +27,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
 
         ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.098), ['Air'] = (0.098) },
 
-        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.0166), ['Air'] = (0.0166) },
+        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.0), ['Air'] = (0.0166) },
                                                             --[[ Basic, Advanced ]]
         ['Point'] = ('Default'), ['Scale'] = (0.2), ['Type'] = ('Advanced'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
         ['Parts'] = {'Head'}, --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
