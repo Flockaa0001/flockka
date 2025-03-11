@@ -27,7 +27,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
 
         ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.0755), ['Air'] = (0.755) },
 
-        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.12), ['Air'] = (0.12) },
+        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.0166), ['Air'] = (0.0166) },
                                                             --[[ Basic, Advanced ]]
         ['Point'] = ('Default'), ['Scale'] = (0.2), ['Type'] = ('Advanced'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
         ['Parts'] = {'Head'}, --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
