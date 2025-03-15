@@ -27,12 +27,12 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
 
         ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.055), ['Air'] = (0.088) },
 
-        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.0166), ['Air'] = (0.0166) },
+        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.14), ['Air'] = (0.14) },
                                                             --[[ Basic, Advanced ]]
         ['Point'] = ('Default'), ['Scale'] = (0.2), ['Type'] = ('Advanced'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
         ['Parts'] = {'Head'}, --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
 
-        ['Easing'] = ('Linear')
+        ['Easing'] = ('Bounce')
         --[[  Linear, Sine, Back, Quad, Quart, Quint, Bounce, Elastic, Exponential, Circular, Cubic  ]]
         --[[ https://create.roblox.com/docs/reference/engine/enums/EasingStyle ]]
     },
