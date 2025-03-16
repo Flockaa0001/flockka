@@ -25,7 +25,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Bezier'] = (true), --[[ -- ]]
         ['Sticky'] = (true), --[[ Single Target ]]
 
-        ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.3455), ['Air'] = (0.3455) },
+        ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.03455), ['Air'] = (0.03455) },
 
         ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.12), ['Air'] = (0.12) },
                                                             --[[ Basic, Advanced ]]
@@ -88,7 +88,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     
     ["Fields"] = {
         ['AimAssistField'] = { ['Size'] = (500) },
-        ['SilentAimField'] = { ['Size'] = (200) },
+        ['SilentAimField'] = { ['Size'] = (110) },
         ['TriggerBotField'] = { ['Size'] = (5.5) }, --[[ For offbrands ]]
         ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (3), ['Height'] = (4.5) }
     },
