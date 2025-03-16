@@ -32,7 +32,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Point'] = ('Default'), ['Scale'] = (0.2), ['Type'] = ('Basic'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
         ['Parts'] = {'Head'}, --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
 
-        ['Easing'] = ('Sine')
+        ['Easing'] = ('Circular')
         --[[  Linear, Sine, Back, Quad, Quart, Quint, Bounce, Elastic, Exponential, Circular, Cubic  ]]
         --[[ https://create.roblox.com/docs/reference/engine/enums/EasingStyle ]]
     },
@@ -64,7 +64,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Cooldown Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.1), ['[Revolver]'] = (0.1) } },                                                                                                                                                                                       
         ['Client Redirection'] = { ['Enabled'] = (false) }, 
         ['Spread Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (.2), ['[TacticalShotgun]'] = (.2), ['[Shotgun]'] = (0.8), ['[Drum-Shotgun]'] = (1) }, ['Randomizer'] = { ['Enabled'] = (false), ['Value'] = math.random(0.1, 0.4) } },
-        ['Delay Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.0095), ['[Revolver]'] = (0.0095) } }, 
+        ['Delay Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.0040), ['[Revolver]'] = (0.0050) } }, 
         ['Double Tap'] = { ['Enabled'] = (true), ['Toggle'] = ('P'), ['Weapon'] = { ('[Silencer]'), ('[Revolver]') } }, --[[ Pistols Only ]]
         ['Beam Color'] = { ['Enabled'] = (false), ['Color'] = (Color3.new(0.560784, 0.894117, 0.901960)) },
         --[[
@@ -88,7 +88,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     
     ["Fields"] = {
         ['AimAssistField'] = { ['Size'] = (500) },
-        ['SilentAimField'] = { ['Size'] = (80) },
+        ['SilentAimField'] = { ['Size'] = (200) },
         ['TriggerBotField'] = { ['Size'] = (5.5) }, --[[ For offbrands ]]
         ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (3), ['Height'] = (4.5) }
     },
