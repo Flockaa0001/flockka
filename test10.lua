@@ -25,14 +25,14 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Bezier'] = (true), --[[ -- ]]
         ['Sticky'] = (true), --[[ Single Target ]]
 
-        ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.077), ['Air'] = (0.088) },
+        ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.0888), ['Air'] = (0.0888) },
 
         ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.079), ['Air'] = (0.079) },
                                                             --[[ Basic, Advanced ]]
         ['Point'] = ('Default'), ['Scale'] = (0.2), ['Type'] = ('Basic'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
         ['Parts'] = {'Head'}, --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
 
-        ['Easing'] = ('Linear')
+        ['Easing'] = ('Bounce')
         --[[  Linear, Sine, Back, Quad, Quart, Quint, Bounce, Elastic, Exponential, Circular, Cubic  ]]
         --[[ https://create.roblox.com/docs/reference/engine/enums/EasingStyle ]]
     },
