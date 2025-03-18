@@ -30,7 +30,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.12), ['Air'] = (0.14) },
                                                             --[[ Basic, Advanced ]]
         ['Point'] = ('Default'), ['Scale'] = (0.12), ['Type'] = ('Basic'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
-        ['Parts'] = {'UpperTorso'}, --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
+        ['Parts'] = {'Head'}, --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
 
         ['Easing'] = ('Sine')
         --[[  Linear, Sine, Back, Quad, Quart, Quint, Bounce, Elastic, Exponential, Circular, Cubic  ]]
